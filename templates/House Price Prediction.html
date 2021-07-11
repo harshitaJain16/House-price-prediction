@@ -1,0 +1,61 @@
+
+<!-- saved from url=(0110)https://www.pythonanywhere.com/user/Harshitajain16/files/home/Harshitajain16/mysite/templates/house_price.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>House Price Prediction</title>
+
+  <link rel="preload" href="https://www.pythonanywhere.com/user/Harshitajain16/files/home/Harshitajain16/mysite/templates/static/flaticon.css" as="style" onload="this.onload=null;this.rel=&#39;stylesheet&#39;">
+  <link rel="preload" href="https://www.pythonanywhere.com/user/Harshitajain16/files/home/Harshitajain16/mysite/templates/static/fonts.css" as="style" onload="this.onload=null;this.rel=&#39;stylesheet&#39;">
+  <link rel="preload" href="https://www.pythonanywhere.com/user/Harshitajain16/files/home/Harshitajain16/mysite/templates/static/bootstrap.min.css" as="style" onload="this.onload=null;this.rel=&#39;stylesheet&#39;">
+  <link rel="stylesheet" href="./House Price Prediction_files/style.css" media="all">
+</head>
+
+    <body data-new-gr-c-s-check-loaded="14.1021.0" data-gr-ext-installed="">
+        <section class="healthForm pb-5">
+            <span><p style="color:red;"> {{ errormsg }} </p> </span>
+            <div class="container">
+                <div class="heading text-center m-0">
+                    <h2>Registration</h2>
+                </div>
+                <form class="healthRegistration" method="post">
+                    <div class="formBox dark-green-bg">
+                        <div class="personalInfo form_column">
+                            <h3 class="label">Tell us a little about yourself</h3>
+                            <div class="row justify-content-center">
+                                <div class="col-lg-5">
+                                    <div class="form-group">
+                                        <input class="form-control" type="number" placeholder="Enter the Income" name="income">
+                                    </div>
+                                </div>
+                                <div class="col-lg-5">
+                                    <div class="form-group">
+                                        <input class="form-control" type="number" placeholder="Enter the House Age" name="house_age">
+                                    </div>
+                                </div>
+                                <div class="col-lg-5">
+                                    <div class="form-group">
+                                        <input class="form-control" type="number" placeholder="Enter the population" name="population">
+                                    </div>
+                                </div>
+                                <div class="col-lg-5">
+                                    <div class="form-group">
+                                        <input class="form-control" type="number" placeholder="Number of Rooms" name="rooms">
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="btnBox text-center mt-4">
+                        <input type="submit" class="btn theme-btn dark-btn" value="Submit">
+                    </div>
+                    <div class="text-center mt-4">
+                        <span>{{result}}</span>
+                    </div>
+                </form>
+
+            </div>
+        </section>
+    
+</body><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration></html>
